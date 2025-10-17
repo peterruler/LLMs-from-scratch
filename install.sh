@@ -5,3 +5,4 @@ source .venv/bin/activate
 uv pip install packaging
 uv pip install -r requirements.txt
 jupyter lab
+mv setup/.vscode ./
