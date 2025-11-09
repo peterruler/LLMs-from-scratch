@@ -6,3 +6,5 @@ uv pip install packaging
 uv pip install -r requirements.txt
 jupyter lab
 mv setup/.vscode ./
+
+uv pip install 'tensorflow-macos>=2.15.0' 'tensorflow-metal>=1.1' 'tqdm>=4.66'
