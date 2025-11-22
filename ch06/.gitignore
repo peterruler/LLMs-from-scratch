@@ -1,0 +1,7 @@
+sms_spam_collection/
+sms_spam_collection.zip
+__pycache__/
+*.pyc
+.DS_Store
+gpt2
+review_classifier.pth
