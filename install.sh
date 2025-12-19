@@ -8,3 +8,5 @@ jupyter lab
 mv setup/.vscode ./
 
 uv pip install 'tensorflow-macos>=2.15.0' 'tensorflow-metal>=1.1' 'tqdm>=4.66'
+ollama run llama3
+python ch07/01_main-chapter-code/ollama_evaluate.py --file_path "/Users/peterstroessler/Documents/Projects/LLMs-from-scratch/ch07/01_main-chapter-code/instruction-data-with-response.json"
